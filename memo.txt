@@ -1,0 +1,18 @@
+rails new ec_shop_Solidus_02 -d postgresql
+cd ec_shop_Solidus_02
+git new project
+git remote add origin https://github.com/masakiando/ec_shop_Solidus_02.git
+git init
+git remote add origin https://github.com/masakiando/ec_shop_Solidus_02.git
+git add .
+git commit -m "first commit"
+git push
+＃gem 追加
+gem 'solidus'
+gem 'solidus_auth_devise'
+gem 'deface'
+bundle install
+rake db:create
+bundle exec rails g spree:install
+bundle exec rake railties:install:migrations
+rails s
