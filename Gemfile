@@ -9,6 +9,8 @@ gem 'solidus'
 gem 'solidus_auth_devise'
 gem 'deface'
 
+gem "bulma-rails"
+gem 'bootstrap', '~> 4.1.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.7'
 # Use postgresql as the database for Active Record
